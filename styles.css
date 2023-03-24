@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+
+body {
+    background-color: white;
+    margin: 0;
+    color: rgb(32, 32, 32);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: w;
+}
+
+.separator {
+    height: 25px;
+}
+
+::placeholder {
+    text-align: center;
+    color: lightgray;
+}
+
+.done {
+    text-decoration: line-through;
+    text-decoration-style: line;
+    text-decoration-color: black;
+}
+
+
+.item-to-add {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(32, 32, 32);
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    letter-spacing: 1.5px;
+    font-size: larger;
+    text-align: center;
+    border: none;
+
+}
+
+
+.add-item-btn {
+    grid-column: span 2;
+    background-color: whitesmoke;
+    padding: .5rem 1rem;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+}
+
+.add-item-btn:hover {
+    background-color:rgb(32, 32, 32);
+    color: whitesmoke;
+
+}
+
+.todo-list {
+    font-size: large;
+    cursor: pointer;
+    color: rgb(32, 32, 32);
+    font-weight: 400;
+    font-size: large;
+}
+
