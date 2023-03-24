@@ -16,8 +16,8 @@ addItemBtn.addEventListener("click", function (event) {
     listItem.addEventListener("click", function(event) {
         const listItemClicked = event.target
         listItemClicked.classList.toggle("done")
+    //Clear the item input
+    itemToAdd.value = ""
     })
 })
 
-//Clear the item input
-itemToAdd.value = ""
